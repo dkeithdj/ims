@@ -4,6 +4,18 @@ app_publisher = "Mugna Tech"
 app_description = "Inventory Management"
 app_email = "hello@mugna.tech"
 app_license = "mit"
+
+# fixtures = [
+#     {"dt": "Module Def", "filters": {"name": "Inventory Management"}},
+#     {"dt": "Email Account", "filters": {"name": "Mugna Inventory"}},
+#     {"dt": "System Settings"},
+# ]
+
+# scheduler_events = {
+#     "daily": [
+#         "erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year",
+#     ]
+# }
 # required_apps = []
 
 # Includes in <head>
@@ -226,4 +238,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
