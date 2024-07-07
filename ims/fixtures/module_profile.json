@@ -44,12 +44,6 @@
     "parenttype": "Module Profile"
    },
    {
-    "module": "Core",
-    "parent": "Inventory",
-    "parentfield": "block_modules",
-    "parenttype": "Module Profile"
-   },
-   {
     "module": "CRM",
     "parent": "Inventory",
     "parentfield": "block_modules",
@@ -57,12 +51,6 @@
    },
    {
     "module": "Custom",
-    "parent": "Inventory",
-    "parentfield": "block_modules",
-    "parenttype": "Module Profile"
-   },
-   {
-    "module": "Desk",
     "parent": "Inventory",
     "parentfield": "block_modules",
     "parenttype": "Module Profile"
@@ -196,7 +184,7 @@
   ],
   "docstatus": 0,
   "doctype": "Module Profile",
-  "modified": "2024-07-07 18:12:33.665719",
+  "modified": "2024-07-07 18:28:55.598878",
   "module_profile_name": "Inventory",
   "name": "Inventory"
  }
