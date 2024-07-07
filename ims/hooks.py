@@ -5,18 +5,22 @@ app_description = "Inventory Management"
 app_email = "hello@mugna.tech"
 app_license = "mit"
 
-# fixtures = [
-#     {"dt": "Module Def", "filters": {"name": "Inventory Management"}},
-#     {"dt": "Email Account", "filters": {"name": "Mugna Inventory"}},
-#     {"dt": "System Settings"},
-# ]
 
-# scheduler_events = {
-#     "daily": [
-#         "erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year",
-#     ]
-# }
-# required_apps = []
+required_apps = ["erpnext"]
+
+fixtures = [
+    {"dt": "Module Def", "filters": {"name": "Inventory Management System"}},
+    {"dt": "Role Profile", "filters": {"name": "Inventory"}},
+    {"dt": "Module Profile", "filters": {"name": "Inventory"}},
+    {
+        "dt": "Role",
+        "filters": [
+            ["name", "in", ["Inventory User", "Inventory Manager"]],
+        ],
+    },
+    # {"dt": "Inventory"},
+    # {"dt": "Email Account", "filters": {"name": "Mugna Tech"}},
+]
 
 # Includes in <head>
 # ------------------
