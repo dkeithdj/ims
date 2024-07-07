@@ -6,8 +6,6 @@ app_email = "hello@mugna.tech"
 app_license = "mit"
 
 
-required_apps = ["erpnext"]
-
 fixtures = [
     {"dt": "Module Def", "filters": {"name": "Inventory Management System"}},
     {"dt": "Role Profile", "filters": {"name": "Inventory"}},
