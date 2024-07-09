@@ -17,7 +17,7 @@ fixtures = [
         ],
     },
     # {"dt": "Inventory"},
-    # {"dt": "Email Account", "filters": {"name": "Mugna Tech"}},
+    {"dt": "Email Account", "filters": {"name": "Mugna Tech"}},
 ]
 
 # Includes in <head>
